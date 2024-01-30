@@ -7,7 +7,7 @@ import PDFControls from "./components/PDFControls";
 import { PDFProvider } from "./state";
 // import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 // import "react-pdf/dist/esm/Page/TextLayer.css";
-
+//removed
 pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.js`;
 
 const PDFRenderer: DocRenderer = ({ mainState }) => {
